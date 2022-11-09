@@ -1,20 +1,15 @@
-
-
-import { Routes, Route } from "react-router-dom";
-
 import './App.css'
 
 
-import { CardGrid } from "./components/CardGrid/CardGrid";
-import { productos } from "./data/productos";
-import { Carrusel } from "./components/Carrusel/carrusel";
-import { Confiar } from "./components/Confiar/Confiar";
-import { Destacados } from "./components/Destacados/destacados";
+
 import { NavBar } from "./components/NavBarPP/NavBar";
+import { Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
-import { Home } from "./components/pages/Home";
-import data from "./data";
-import { Product } from "./components/Product/Product";
+import { Inicio } from "./components/pages/Inicio";
+import { Productos } from "./components/pages/Productos";
+import { Contacto } from "./components/pages/Contacto";
+import { Sobre_Nosotros } from "./components/pages/Sobre Nosotros";
+import { Origen } from "./components/pages/Origen";
 
 
 
@@ -23,29 +18,15 @@ function App() {
   return (
     <>
     <NavBar />
-    <br/>
-    <Carrusel/>
-    <br />
-    <Destacados/>
+      <Routes>
 
-    <br/>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/Productos" element={<Productos />} />
+        <Route path="/Contacto" element={<Contacto />} />
+        <Route path="/Sobre_Nosotros" element={<Sobre_Nosotros />} />
+        <Route path="Origen" element={<Origen/>} />
 
-
-
-    {/* <CardGrid data={productos} /> */}
-    <Confiar />
-
-    <div className="productos">
-      {
-        data.productos.map(productos => (
-        <div className="producto" key={producto.urltag}>
-          <a href={"/producto/"${producto.urltag}'}>
-          <img src={producto.image} alt ={producto.nombre} />
-          <p>{producto.nombre}</p>
-          <p>{producto.precio}</p>
-        </div>))
-      }
-    </div>
+      </Routes>
 
 
 

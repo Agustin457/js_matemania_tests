@@ -25,17 +25,13 @@ export const NavBar = () =>{
               <li class="nav-item">
                 <a class="nav-link" href="./Contacto.html">Contacto</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobres Nostros</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Más
+                  Quienes somos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Cuida tu Mate</a></li>
-                  <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
-                  <li><a class="dropdown-item" href="#">Historia</a></li>
+                  <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                  <li><a class="dropdown-item" href="#">Origen</a></li>
                 </ul>
               </li>
               <li id="icons">
