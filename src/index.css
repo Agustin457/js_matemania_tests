@@ -2,19 +2,3 @@
   margin: 0px;
   padding: 0px;
 }
-
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.producto {
-  border: 1px #050015 solid;
-  margin: 1rem;
-}
-
-.producto img{
-  width: 100%;
-  max-width: 400px;
-}

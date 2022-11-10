@@ -6,7 +6,7 @@ export const Confiar = () => {
     return(
         <section id="confiar">
             <h2 class="titulo"> ¿Por qué confiar en nosotros? </h2>
-            <container>
+            <container> <br/>
                 <div class="row">
                 <div class="col-4">
                     <img src= {entrega} width="100px"/>

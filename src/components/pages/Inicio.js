@@ -1,10 +1,20 @@
 import React from 'react'
+import { Carrusel } from '../Carrusel/carrusel'
+import { Confiar } from '../Confiar/Confiar'
+import { Destacados } from '../Destacados/destacados'
 
 
 export const Inicio = () => {
-    return (
-        <>
-            <h1>Inicio</h1>
-        </>
-    )
+  return (
+    
+    <>
+    <Carrusel/> 
+    <Destacados/>
+    <Confiar/>
+    
+
+
+    
+    </>
+  )
 }

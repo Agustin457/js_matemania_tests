@@ -1,40 +1,126 @@
-const productos = [
-    {
-        id: 'sku001',
-        title: 'Producto 01',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=1',
-        categorie: 'cat01'
-    },
-    {
-        id: 'sku002',
-        title: 'Producto 02',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=2',
-        categorie: 'cat02'
-    },
-    {
-        id: 'sku003',
-        title: 'Producto 03',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=3',
-        categorie: 'cat01'
-    },
-    {
-        id: 'sku004',
-        title: 'Producto 04',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=4',
-        categorie: 'cat02'
-    },
-    {
-        id: 'sku005',
-        title: 'Producto 05',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=5',
-        categorie: 'cat01'
-    },
-]
+const data_productos= {
+    productos:[
+        {
+            nombre: 'Mate 01',
+            urltag: 'Producto-01',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m1.jpeg',
+            categorie: 'cat1',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 02',
+            urltag: 'Producto-02',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m2.jpeg',
+            categorie: 'cat2'
+        },
+        {
+            nombre: 'Mate 03',
+            urltag: 'Producto-03',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m13.jpeg',
+            categorie: 'cat3',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 04',
+            urltag: 'Producto-04',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m4.jpeg',
+            categorie: 'cat4',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 05',
+            urltag: 'Producto-05',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m5.jpeg',
+            categorie: 'cat5',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 06',
+            urltag: 'Producto-06',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m6.jpeg',
+            categorie: 'cat6',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 07',
+            urltag: 'Producto-07',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m7.jpeg',
+            categorie: 'cat7',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 08',
+            urltag: 'Producto-08',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m8.jpeg',
+            categorie: 'cat8',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 09',
+            urltag: 'Producto-09',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m9.jpeg',
+            categorie: 'cat9',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 10',
+            urltag: 'Producto-10',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m10.jpeg',
+            categorie: 'cat10',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 11',
+            urltag: 'Producto-11',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m11.jpeg',
+            categorie: 'cat11',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 12',
+            urltag: 'Producto-12',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m12.jpeg',
+            categorie: 'cat12',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 13',
+            urltag: 'Producto-13',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m13.jpeg',
+            categorie: 'cat12',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 14',
+            urltag: 'Producto-14',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m14.jpeg',
+            categorie: 'cat14',
+            precio: 6000,
+        },
+        {
+            nombre: 'Mate 15',
+            urltag: 'Producto-15',
+            text:  'Texto descriptivo de del producto',
+            img: '/assets/m1.jpeg',
+            categorie: 'cat15',
+            precio: 6000,
+        }
+    ]
+}
 
 const navButtos =[
     {
@@ -52,7 +138,7 @@ const navButtos =[
 ]
 
 export {
-    productos,
+    data_productos,
     navButtos
 
 }

@@ -17,4 +17,5 @@ export { default as producto4} from './mate4.jpeg'
 export { default as producto5} from './mate5.jpeg'
 export { default as producto6} from './mate6.jpeg'
 export { default as producto7} from './mate7.jpg'
+export {default as origen} from './origen.jpeg' //usado en origen
 

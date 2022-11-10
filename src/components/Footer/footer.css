@@ -8,9 +8,25 @@
     margin-bottom: 50px;
     border-radius: 10px;
     align-content: right;
-    
+    align-items: right;
+}
+
+#fotos_redes{
+    align-items: right;
 }
 
 #titulo_redes{
     text-align: right;
+}
+
+a:hover{
+    text-decoration: none;
+    color: darksalmon;
+}
+
+footer a{
+    color: white;
+}
+#container {
+    margin-bottom: 10px;
 }
