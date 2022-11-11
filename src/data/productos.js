@@ -32,7 +32,7 @@ const data= {
             text:  'Texto descriptivo de del producto',
             img: m4,
             categorie: 'cat4',
-            precio: 6000,
+            precio: 7000,
         },
         {
             nombre: 'Mate 05',

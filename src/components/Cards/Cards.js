@@ -1,5 +1,3 @@
-import { precio } from "../../assets"
-
 const Cards = (props) => {
     return (
         <>
@@ -7,15 +5,15 @@ const Cards = (props) => {
                 <div className="card h-100 shadow">
                     <img src={props.img} alt="" className="card-img-top img-fluid"/>
                     <div className="card-body">
-                        <div className="d-flex justify-conten-between">
+                        <div className="d-flex justify-content-between">
                             <h5 className="card-title">{props.titulo}</h5>
-                            <span className="fw-bolder">{props.precio}</span>
+                            <span className="fw-bolder">${props.precio}</span>
                         </div>
-                        <div className="row">
+                        <div className="">
                             <p className="card-text">{props.text}</p>
                         </div>
-                        <div className="row mt-4">
-                            <button className="btn btn-success"> Agregar al carrito</button>
+                        <div className="d-grid justify-content-end mt-4">
+                            <button className="btn btn-sm btn-outline-success"> Agregar al carrito</button>
                         </div>
                     </div>
                 </div>
