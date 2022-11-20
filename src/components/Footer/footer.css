@@ -1,0 +1,38 @@
+#footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5F7161;
+    
+}
+
+.img_footer{
+    filter: brightness(1.1);
+    mix-blend-mode:lighten;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    align-content: right;
+    align-items: right;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FAD6A5;
+}
+
+footer a{
+    color: white;
+}
+#container {
+    margin-bottom: 10px;
+}
+
+.whatsapp{
+    height: 50px;
+
+}
+
+@media screen and (max-width: 700px){
+    #footer{
+        display: inline-block;
+
+    }
+}

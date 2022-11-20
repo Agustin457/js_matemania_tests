@@ -1,0 +1,19 @@
+#sobre_nosotros {
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#titulo {
+    text-align: center;
+    color: #9BA17B;
+}
+#quienes_somos {
+    text-align: justify;
+    text-align: center;
+    background-color: rgb(207, 185, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#flores { text-align: center;}

@@ -1,0 +1,22 @@
+.row {
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.limpiar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
